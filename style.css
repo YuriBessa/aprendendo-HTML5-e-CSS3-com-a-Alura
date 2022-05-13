@@ -222,6 +222,10 @@ td, th {
 	vertical-align: top;
 }
 
+.itens:before {
+	content: "\01F7CA";
+}
+
 .itens{
 	line-height: 1.5;
 }
