@@ -223,7 +223,7 @@ td, th {
 }
 
 .itens:before {
-	content: "\01F7CA";
+	content: "🟊";
 }
 
 .itens{
@@ -236,6 +236,14 @@ td, th {
 
 .imagem-beneficios {
 	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 5px 0 #000000;
+	/* Explicando o box-shadow: 1-dist do eixo X, 2-dist do eixo X, 3-blur (parecido com opacidade), 4-intensidade, 5-cor */
+}
+
+.imagem-beneficios:hover {
+	opacity: 0.3;
 }
 
 .video {
