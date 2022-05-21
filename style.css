@@ -63,8 +63,12 @@ nav a:hover {
 	border-color: #088C19;	
 }
 
+.produtos li:last-child:hover h2{
+	font-size: 31px;
+}
+
 .produtos li:hover h2 {
-	font-size: 34px;
+	font-size: 32px;
 }
 
 .produtos h2 {
@@ -99,7 +103,8 @@ main {
 }
 
 form {
-	margin: 40px 0;
+	margin: 40px auto 0 auto;
+	width: 940px;
 }
 
 form label, form legend {
@@ -114,6 +119,11 @@ form label, form legend {
 	padding: 10px 25px;
 	width: 50%;
 }
+
+fieldset > legend + select{
+	font-size: 18px;
+}
+
 
 .checkbox {
 	margin: 20px 0;
@@ -137,8 +147,15 @@ form label, form legend {
 	transform: scale(1.2);
 }
 
+.area-tabela {
+	width: 940px;
+	margin: 40px auto 0;
+}
+
+
 table {
 	margin: 20px 0 40px;
+
 }
 
 thead {
@@ -252,8 +269,13 @@ td, th {
 }
 
 @media screen and (max-width: 480px) {
-	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+	form, .area-tabela, .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos {
 		width: auto;
+
+	}
+
+	form, .area-tabela {
+		padding-left: 15px;
 	}
 
 	h1 {
@@ -267,4 +289,20 @@ td, th {
 	.lista-beneficios, .imagem-beneficios {
 		width: 100%;
 	}
+	.input-padrao {
+		width: 70%;
+	}
+
+	.produtos li {
+		display: block;
+		text-align: center;
+		width: auto;
+		vertical-align: top;
+		margin: 5%;
+		padding: 30px 20px;
+		box-sizing: border-box;
+		border: 2px solid #000000;
+		border-radius: 10px;
+	}
+
 }
