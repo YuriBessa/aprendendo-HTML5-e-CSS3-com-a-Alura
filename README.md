@@ -40,8 +40,10 @@ O curso foi dividido em 4 partes, cada uma contendo suas respectivas propostas:
   * Saiba como lidar com opacidade e sombra
   * Entenda sobre o Viewport e design responsivo
 
-Para fins de documentação, foi usado controle de versionamento do Git, e inserção tambem no repositório remoto no GitHub. 
+Para fins de documentação, foi usado controle de versionamento do Git, e inserção tambem no repositório remoto no GitHub. Os arquivos estão salvos na branch master.
 
 A cada aula concluída foi feito um commit com uma breve descrição das alterações realizadas, e a cada etapa (curso) concluida foi gerada uma release (tag).
 
-Obs.: Há mais de uma página de estilização, pois para fins didáticos, o curso seguiu desta forma. Após algumas etapas foi adatado o uso de somente uma página de estilização para as outras páginas do site.
+Obs.: Há mais de uma página de estilização, pois para fins didáticos o curso seguiu desta forma, utilizando o arquivo style-home.css (que antes era nomeado style.css) com estilos específicos para a página index.html.
+
+Após algum tempo foi adotado o uso de somente uma página de estilização (style.css) para as 3 páginas do site e o uso do arquivo style-home.css não foi mais necessário.
