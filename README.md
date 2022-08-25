@@ -1,4 +1,4 @@
-# aprendendo-HTML5-e-CSS3-com-a-Alura
+# Aprendendo HTML5 e CSS3 com a Alura
 
 Paginas criadas como prática do aprendizado do curso de HTML5 e CSS3 da Plataforma Alura, ministradas pelo Prof. Pedro Marins.
 
